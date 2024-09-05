@@ -34,9 +34,18 @@ form {
 }
 
 .name {
-    width: 300px;
-    border-radius: $border-radius;
-    padding: 10px;
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
 }
 
 
@@ -50,9 +59,26 @@ input {
     height: 50px;
 }
 
-.submit {
+.div-submit {
     display: flex;
     justify-content: center;
+}
+
+.submit {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
 
 .advance-label {
@@ -71,4 +97,16 @@ hr {
     border: 0;
     height: 1px;
     background-color: rgb(163, 163, 163);
+}
+
+
+.advance-form {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
 }
