@@ -29,7 +29,7 @@ form {
 
 .name {
   width: 300px;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 10px;
 }
 
@@ -49,5 +49,13 @@ input {
 }
 
 .advance-label {
-  margin: 20px;
+  padding: 20px 100px 20px;
+}
+
+.user-input {
+  border-style: solid;
+  padding: 10px;
+  border-radius: 15px;
+  width: 500px;
+  background-color: rgb(236, 232, 227);
 }/*# sourceMappingURL=styles.css.map */

@@ -1,4 +1,4 @@
-$border-radius: 20px;
+$border-radius: 15px;
 
 .container, .container-fluid {
     display: flex;
@@ -54,3 +54,14 @@ input {
     justify-content: center;
 }
 
+.advance-label {
+    padding: 20px 100px 20px;
+}
+
+.user-input {
+    border-style: solid;
+    padding: 10px;
+    border-radius: $border-radius;
+    width: 500px;
+    background-color: rgb(236, 232, 227);
+}
