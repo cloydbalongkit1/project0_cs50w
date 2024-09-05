@@ -1,4 +1,5 @@
 $border-radius: 15px;
+$user-input: rgb(227, 245, 255);
 
 .container, .container-fluid {
     display: flex;
@@ -63,7 +64,7 @@ input {
     padding: 10px;
     border-radius: $border-radius;
     width: 500px;
-    background-color: rgb(236, 232, 227);
+    background-color: $user-input;
 }
 
 hr {
